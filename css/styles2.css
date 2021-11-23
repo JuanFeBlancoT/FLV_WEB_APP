@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,300&display=swap');
+
+#textBodyIndex2{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#mainTitle{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0E0C2B;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 400;
+
+}
+
+#midSpace{
+    height: 5em;
+}
+
+#bigSpace{
+    height: 20em;
+}
+
+#subDTitle{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0E0C2B;
+    text-align: left;
+    font-size: 3em;
+    font-weight: 700;
+    padding-top: 0%;
+    margin-top: 2em;
+    margin-left: 70px;
+}
+
+#subD2{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0E0C2B;
+    padding-left: 285px;
+    font-size: 6em;
+    font-weight: 700;
+    padding-top: 0%;
+    margin-top: 0;
+    margin-left: 70px;
+}
+
+#logoProjectImage{
+    width: 30em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0%
+}
+
+#btnContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+#mainBtn{
+    width: 300px;
+    height: 80px;
+    border: none;
+    color: white;
+    background-color: #0033C7;
+    border-radius: 2em;
+    transition: ease-out 0.3s;
+    font-size: 2em;
+    position: relative;
+    z-index: 1;
+    outline: none;
+}
+
+#mainBtn:hover{
+    cursor: pointer;
+    color: black;
+}
+
+#mainBtn:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: aqua;
+}
+
+#mainBtn:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 3em;
+}
