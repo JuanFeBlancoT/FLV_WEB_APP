@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,300&display=swap');
+
+#texto{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0E0C2B;
+    text-align: right;
+    font-size: 0.8em;
+    font-weight: 400;
+    padding-top: 0%;
+    margin-top: 0%;
+    
+}
+
+#subtitle{
+    position: relative;
+    top: -510px;
+    left: -40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 300;
+}
+#subtitle2{
+    position: relative;
+    top: -570px;
+    left: -300px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 300;
+}
+#subtitle3{
+    position: relative;
+    top: -680px;
+    left: 200px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 1em;
+    
+}
+#subtitle4{
+    position: relative;
+    top: -835px;
+    left: 450px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 1em;
+    
+}
+
+#title{
+    position: relative;
+    top: 150px;
+    left: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0E0C2B;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 700;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+
+#logoImage{
+    position: relative;
+    top: -15px;
+    left: -280px;
+    width: 25em;
+    display: block;
+    margin-left: auto;
+    margin-top: auto;
+    
+}
+
+#bigSpace{
+    height: 20em;
+}
+
+#bigSpace2{
+    height: 10em;
+}
+
+#ProjectImage{
+    position: relative;
+    top: -8px;
+    left: -8px;
+    width: 70em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#RectBlur{
+    position: absolute;
+    width: 1119px;
+    height: 510px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(67.42deg, rgba(212, 57, 134, 0.36) 0%, rgba(170, 57, 212, 0.36) 100%);
+    backdrop-filter: blur(7px);
+}
+
+body{
+   color: white;
+}
+
+#RectBotones{
+    position: absolute;
+    width: 1000px;
+    height: 250px;
+    left: 60px;
+    top: 410px;
+
+    background: rgba(251, 251, 251, 0.84);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+#RectBotonSelect{
+    position: absolute;
+    width: 275px;
+    height: 275px;
+    left: 310px;
+    top: 398px;
+    background: #D43986;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+#CKL{
+    position: relative;
+    top: 300px;
+    left: -250px;
+    width: 20em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*#btnContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+#mainBtnL{
+    width: 480px;
+    height: 120px;
+    border: none;
+    color: white;
+    background-color: #0033C7;
+    border-radius: 6em;
+    transition: ease-out 0.3s;
+    font-size: 2.5em;
+    position: relative;
+    z-index: 1;
+    outline: none;
+}
+
+#mainBtnL:hover{
+    cursor: pointer;
+    color: black;
+}
+
+#mainBtnL:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: aqua;
+}
+
+#mainBtnL:hover:before{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 3em;
+}*/
